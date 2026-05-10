@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SecureNet
 
-## Getting Started
+Сайт для защиты аккаунтов в социальных сетях, созданный на Next.js с Tailwind CSS.
 
-First, run the development server:
+## 🚀 Технологии
+
+- **Next.js 16** - React фреймворк
+- **TypeScript** - Типизация
+- **Tailwind CSS 4.3** - Стилизация (latest version)
+- **pnpm** - Менеджер пакетов
+
+## 📦 Установка
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Установка зависимостей
+pnpm install
+
+# Запуск dev сервера
 pnpm dev
-# or
-bun dev
+
+# Сборка для продакшена
+pnpm build
+
+# Запуск продакшен версии
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Доступ
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+После запуска `pnpm dev` сайт будет доступен по адресу:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Local: http://localhost:3000
+- Network: http://192.168.1.106:3000
 
-## Learn More
+## 📁 Структура проекта
 
-To learn more about Next.js, take a look at the following resources:
+```
+securenet/
+├── app/
+│   ├── layout.tsx      # Основной layout
+│   ├── page.tsx        # Главная страница
+│   └── globals.css     # Глобальные стили
+├── components/
+│   ├── Header.tsx      # Шапка сайта
+│   ├── Hero.tsx        # Главный баннер
+│   ├── SecurityBasics.tsx  # Секция "Основы безопасности"
+│   ├── SocialNetworks.tsx  # Секция "Социальные сети"
+│   ├── Checklist.tsx   # Чек-лист задач
+│   ├── AnalysisForm.tsx    # Форма анализа
+│   └── Footer.tsx      # Подвал сайта
+└── public/             # Статические файлы
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Особенности
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Адаптивный дизайн
+- ✅ Современный UI с градиентами
+- ✅ Интерактивный чек-лист
+- ✅ Форма анализа безопасности
+- ✅ Секции для разных соцсетей
+- ✅ Плавные анимации и переходы
 
-## Deploy on Vercel
+## 🎨 Компоненты
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Header
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Навигационная панель с логотипом, меню и кнопкой входа.
+
+### Hero
+
+Главный баннер с призывом к действию и визуальным элементом защиты.
+
+### SecurityBasics
+
+Три карточки с основами безопасности: пароли, 2FA, фишинг.
+
+### SocialNetworks
+
+Карточки для Instagram, ВКонтакте и Telegram с рекомендациями.
+
+### Checklist
+
+Интерактивный чек-лист с прогресс-баром для отслеживания выполнения задач.
+
+### AnalysisForm
+
+Форма для анализа безопасности аккаунтов пользователя.
+
+### Footer
+
+Подвал с информацией о компании, ссылками и контактами.
+
+## 📝 Лицензия
+
+MIT
