@@ -8,8 +8,9 @@ export default function Hero() {
 							Защити свои аккаунты в соцсетях
 						</h1>
 						<p className='text-base sm:text-lg lg:text-xl text-gray-600 mb-6 sm:mb-8 leading-relaxed'>
-							Пошаговые инструкции по настройке приватности и безопасности в ВКонтакте и Telegram.
-							Защитите свои данные прямо сейчас.
+							На этом сайте вы найдёте практические рекомендации по защите аккаунтов в Telegram,
+							ВКонтакте и MAX: основы кибербезопасности, пошаговые инструкции по настройке
+							приватности и интерактивный чек-лист для проверки своей защищённости.
 						</p>
 						<div className='flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start'>
 							<a

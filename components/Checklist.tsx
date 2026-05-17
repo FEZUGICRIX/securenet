@@ -4,12 +4,17 @@ import { useState } from 'react'
 
 export default function Checklist() {
 	const [tasks, setTasks] = useState([
-		{ id: 1, text: 'Включи двухфакторную аутентификацию во всех соцсетях', completed: false },
-		{ id: 2, text: 'Смени пароли на уникальные и сложные (12+ символов)', completed: false },
-		{ id: 3, text: 'Проверь активные сеансы и завершите незнакомые', completed: false },
-		{ id: 4, text: 'Настрой приватность профиля (закрытый тип)', completed: false },
-		{ id: 5, text: 'Скрой номер телефона в Telegram', completed: false },
-		{ id: 6, text: 'Отзови доступ у неиспользуемых приложений', completed: false },
+		{
+			id: 1,
+			text: 'Используй разные и сложные пароли (буквы, цифры, спецсимволы)',
+			completed: false,
+		},
+		{ id: 2, text: 'Подключи двухфакторную аутентификацию для всех аккаунтов', completed: false },
+		{ id: 3, text: 'Регулярно обновляй приложения (ВКонтакте, Telegram, MAX)', completed: false },
+		{ id: 4, text: 'Проверь активные устройства и завершите незнакомые сеансы', completed: false },
+		{ id: 5, text: 'Избегай подозрительных сайтов и ссылок', completed: false },
+		{ id: 6, text: 'Используй антивирусные программы на своих устройствах', completed: false },
+		{ id: 7, text: 'Не подключайся к неизвестным Wi-Fi сетям', completed: false },
 	])
 
 	const toggleTask = (id: number) => {

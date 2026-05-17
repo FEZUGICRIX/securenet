@@ -4,6 +4,7 @@ import SecurityBasics from '@/components/SecurityBasics'
 import SocialNetworks from '@/components/SocialNetworks'
 import Checklist from '@/components/Checklist'
 import AnalysisForm from '@/components/AnalysisForm'
+import Conclusion from '@/components/Conclusion'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
 				<SocialNetworks />
 				<Checklist />
 				<AnalysisForm />
+				<Conclusion />
 			</main>
 			<Footer />
 		</div>
