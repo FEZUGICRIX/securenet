@@ -11,47 +11,36 @@ export default function Header() {
 				<div className='px-4 sm:px-6 lg:px-8'>
 					<div className='flex justify-between items-center h-14 sm:h-16'>
 						<div className='flex items-center'>
-							<span className='text-lg sm:text-xl font-bold text-gray-900'>SecureNet</span>
+							<a
+								href='/'
+								className='text-lg sm:text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors'
+							>
+								SecureNet
+							</a>
 						</div>
 
 						<nav className='hidden md:flex items-center space-x-6 lg:space-x-8'>
 							<a
-								href='#'
+								href='/'
 								className='text-xs lg:text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors'
 							>
-								Тесты
+								Главная
 							</a>
 							<a
-								href='#'
+								href='/conclusion'
 								className='text-xs lg:text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors'
 							>
-								Разное
+								Безопасность
 							</a>
 							<a
-								href='#'
+								href='/checklist'
 								className='text-xs lg:text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors'
 							>
-								Новости
-							</a>
-							<a
-								href='#'
-								className='text-xs lg:text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors'
-							>
-								Помощь
-							</a>
-							<a
-								href='#'
-								className='text-xs lg:text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors'
-							>
-								О нас
+								Чек-лист
 							</a>
 						</nav>
 
 						<div className='flex items-center gap-3 sm:gap-4'>
-							<button className='hidden md:block bg-blue-600 text-white px-4 lg:px-6 py-1.5 lg:py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium text-xs lg:text-sm'>
-								Войти
-							</button>
-
 							<button
 								className='md:hidden text-gray-700 p-2 -mr-2'
 								onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -87,38 +76,23 @@ export default function Header() {
 						<div className='md:hidden py-3 sm:py-4 border-t border-gray-200'>
 							<nav className='flex flex-col space-y-3'>
 								<a
-									href='#'
+									href='/'
 									className='text-sm text-gray-700 hover:text-blue-600 transition-colors py-1'
 								>
-									Тесты
+									Главная
 								</a>
 								<a
-									href='#'
+									href='/conclusion'
 									className='text-sm text-gray-700 hover:text-blue-600 transition-colors py-1'
 								>
-									Разное
+									Безопасность
 								</a>
 								<a
-									href='#'
+									href='/checklist'
 									className='text-sm text-gray-700 hover:text-blue-600 transition-colors py-1'
 								>
-									Новости
+									Чек-лист
 								</a>
-								<a
-									href='#'
-									className='text-sm text-gray-700 hover:text-blue-600 transition-colors py-1'
-								>
-									Помощь
-								</a>
-								<a
-									href='#'
-									className='text-sm text-gray-700 hover:text-blue-600 transition-colors py-1'
-								>
-									О нас
-								</a>
-								<button className='bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors w-full text-sm font-medium mt-2'>
-									Войти
-								</button>
 							</nav>
 						</div>
 					)}

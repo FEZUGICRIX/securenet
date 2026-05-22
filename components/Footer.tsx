@@ -45,6 +45,11 @@ export default function Footer() {
 								</a>
 							</li>
 							<li>
+								<a href='/conclusion' className='hover:text-white transition-colors'>
+									Безопасность
+								</a>
+							</li>
+							<li>
 								<a href='#' className='hover:text-white transition-colors'>
 									Помощь
 								</a>
