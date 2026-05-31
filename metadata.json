@@ -1,0 +1,6 @@
+{
+  "name": "SecureNet",
+  "description": "Образовательный сайт для аудита безопасности аккаунтов в соцсетях Telegram, ВКонтакте и MAX",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
