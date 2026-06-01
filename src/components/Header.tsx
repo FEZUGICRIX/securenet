@@ -15,6 +15,7 @@ export default function Header() {
 
   const navItems = [
     { label: 'Главная', path: '/' },
+    { label: 'Проверка пароля', path: '/password-strength' },
     { label: 'Безопасность', path: '/conclusion' },
     { label: 'Чек-лист', path: '/checklist' },
   ];
