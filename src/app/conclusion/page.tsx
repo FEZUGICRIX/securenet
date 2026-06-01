@@ -5,7 +5,7 @@ import Conclusion from '@/src/components/Conclusion';
 
 export default function ConclusionPage() {
   return (
-    <div className="space-y-4 animate-fade-in py-4">
+    <div className="container mx-auto space-y-4 animate-fade-in py-4">
       <SecurityBasics />
       <Conclusion />
     </div>

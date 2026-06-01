@@ -8,7 +8,7 @@ interface HeroProps {
 
 export default function Hero({ onStartAudit, onExploreSocial }: HeroProps) {
   return (
-    <section className="relative overflow-hidden py-16 lg:py-24">
+    <section className="relative py-16 lg:py-24">
       {/* Background radial highlight */}
       <div className="absolute top-1/4 left-1/2 -z-10 h-72 w-72 -translate-x-1/2 rounded-full bg-primary/20 blur-3xl lg:h-96 lg:w-96" />
 

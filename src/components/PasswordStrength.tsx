@@ -167,9 +167,9 @@ export default function PasswordStrength() {
   }, [password]);
 
   return (
-    <section className="relative overflow-hidden py-16 lg:py-24">
-      <div className="absolute top-1/3 right-0 -z-10 h-96 w-96 translate-x-1/2 rounded-full bg-primary/10 blur-3xl" />
-      <div className="absolute bottom-1/3 left-0 -z-10 h-72 w-72 -translate-x-1/2 rounded-full bg-violet-500/10 blur-3xl" />
+    <section className="relative py-16 lg:py-24">
+      <div className="absolute top-1/3 right-0 -z-10 h-80 w-80 translate-x-1/3 rounded-full bg-primary/10 blur-3xl" />
+      <div className="absolute bottom-1/3 left-0 -z-10 h-72 w-72 -translate-x-1/3 rounded-full bg-violet-500/10 blur-3xl" />
 
       <div className="container mx-auto px-4 sm:px-6">
         <motion.div

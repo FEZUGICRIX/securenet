@@ -62,7 +62,7 @@ export default function AnalysisForm() {
   };
 
   return (
-    <section id="basics" className="py-16 my-8">
+    <section id="basics" className="py-16 my-8 container mx-auto">
       <Card className="max-w-4.5xl mx-auto overflow-hidden border border-border shadow-xl rounded-2xl bg-card">
         <div className="grid grid-cols-1 lg:grid-cols-12">
           
